@@ -1,0 +1,32 @@
+/* .calendarContainer {
+    padding: 10rem 0 0 40rem;
+}
+
+.calendarHeaderControl {
+    color: var(--mantine-color-blue-6);
+    border: 1px solid var(--mantine-color-gray-3);
+}
+
+.calendarHeaderControl:hover {
+    background-color: var(--mantine-color-blue-0);
+}
+
+.calendarHeaderLevel {
+    font-size: var(--mantine-font-size-md);
+    color: var(--mantine-color-blue-6);
+}
+
+.calendarHeaderLevel:hover {
+    background-color: var(--mantine-color-blue-0);
+}
+
+.daySelected {
+    background-color: var(--mantine-color-blue-6);
+    color: rgb(135, 16, 16);
+} */
+
+.calendarContainer {
+    padding: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
