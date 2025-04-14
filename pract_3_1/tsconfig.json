@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "plugins": [{"name": "next"}],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/styled-system/*": ["./styled-system/*"]  // Добавлено для Panda CSS
+    },
+    "noEmit": true,
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "styled-system/**/*.ts"  // Добавлено для типов Panda CSS
+  ],
+  "exclude": ["node_modules"]
+}

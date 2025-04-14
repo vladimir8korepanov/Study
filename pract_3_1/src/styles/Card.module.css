@@ -1,0 +1,26 @@
+.card {
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 10rem;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(15, 4, 4, 0.1);
+    transition: box-shadow 0.3s ease;
+    background:rgb(235, 241, 234);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 10px rgba(27, 11, 241, 0.15);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color:rgb(173, 155, 155);
+  }
+  
+  .content {
+    font-size: 1rem;
+    color:rgb(29, 20, 20);
+    margin-bottom: 1.5rem;
+  }
