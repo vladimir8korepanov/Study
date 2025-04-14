@@ -25,7 +25,6 @@ export const fetchPosts = async (): Promise<Post[]> => {
 };
 
 
-// Схема для комментария
 const commentSchema = z.object({
     postId: z.number(),
     id: z.number(),
@@ -36,7 +35,6 @@ const commentSchema = z.object({
   
   export type Comment = z.infer<typeof commentSchema>;
   
-  // Добавьте функцию для получения комментариев
   export const fetchComments = async (postId: number): Promise<Comment[]> => {
     const response = await api.get(`/posts/${postId}/comments`);
     return z.array(commentSchema).parse(response.data);

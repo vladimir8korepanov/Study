@@ -2,17 +2,14 @@
     margin-top: 20px;
   }
   
-  /* Фиксируем ширину столбцов */
   .table :global(.ant-table-thead > tr > th) {
     white-space: nowrap;
   }
   
-  /* Убираем дергание при пагинации */
   .table :global(.ant-table-container) {
     transition: none !important;
   }
   
-  /* Выравниваем кнопки в Actions */
   .table :global(.ant-table-cell:last-child .ant-btn) {
     float: right;
   }
