@@ -1,0 +1,15 @@
+.table {
+    margin-top: 20px;
+  }
+  
+  .table :global(.ant-table-thead > tr > th) {
+    white-space: nowrap;
+  }
+  
+  .table :global(.ant-table-container) {
+    transition: none !important;
+  }
+  
+  .table :global(.ant-table-cell:last-child .ant-btn) {
+    float: right;
+  }

@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+.container {
+  padding: 24px;
+}
+
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.alertContainer {
+  margin: 24px;
+}
+
+.commentsToggle {
+  margin: 16px 0;
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 18px;
+  }
+}

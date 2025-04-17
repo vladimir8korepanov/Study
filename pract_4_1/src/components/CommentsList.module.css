@@ -1,0 +1,21 @@
+.container {
+    margin-top: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.commentItem {
+    transition: background-color 0.3s;
+}
+
+.commentItem:hover {
+    background-color:rgb(145, 226, 225);
+}
+
+.refetchButton {
+    margin-left: auto;
+}
