@@ -30,7 +30,7 @@ app.use(
 
 // Маршрут для авторизации
 app.get('/auth/yandex', (req, res) => {
-  const clientId = 'ef65f055cb1b4a15ae31f33a652e8d8f';
+  const clientId = 'VITE_YANDEX_CLIENT_ID';
   const redirectUri = `http://localhost:${PORT}/callback`;
   const authUrl = `https://oauth.yandex.ru/authorize?response_type=token&client_id=${clientId}&redirect_uri=${redirectUri}`;
   res.redirect(authUrl);

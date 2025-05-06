@@ -1,9 +1,3 @@
-// import { useAuthContext } from "./AuthProvider";
-
-// export const useAuth = () => {
-//   const { user, setUser } = useAuthContext();
-//   return { user, setUser };
-// };
 import { useNavigate } from 'react-router-dom';
 
 export const useAuth = () => {
