@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    /* Базовые настройки */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    
+    /* Совместимость */
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": ["cypress", "node"],
+    
+    /* Безопасность и качество кода */
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    
+    /* Особенности проекта */
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    
+    /* Пути */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  
+  "include": [
+    "src",
+    "cypress",
+    "vite.config.ts"
+  ],
+  
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
