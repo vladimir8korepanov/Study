@@ -1,0 +1,4 @@
+echo "#!/usr/bin/env sh" >> .husky/pre-commit
+echo ". \"$(dirname -- "$0")/_/husky.sh\"" >> .husky/pre-commit
+echo "" >> .husky/pre-commit
+echo "npx lint-staged" >> .husky/pre-commit
